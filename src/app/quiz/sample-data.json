@@ -1,0 +1,85 @@
+[
+    {
+        "inTestBank": false,
+        "title": "Câu hỏi cho trẻ em lớp 1",
+        "question": "Hãy kéo thả các thành phần của tiếng và dấu thanh vào ô thích hợp.",
+        "voice": "Hương Giang",
+        "rateVoice": 1.5,
+        "score": 25,
+        "type": "square_quiz",
+        "squareQuizType": "elements_of_word",
+        "quizParts": [
+            {
+                "content": {
+                    "text": "chiếc thuyền nặng",
+                    "type": "text"
+                },
+                "squareQuizParts": [
+                    {
+                        "content": {
+                            "text": "chiếc",
+                            "audioUrl": ""
+                        },
+                        "structure": {
+                            "consonant": "ch",
+                            "rhyme": {
+                                "content": {
+                                    "text": "iêc",
+                                    "audioUrl": ""
+                                },
+                                "structure": {
+                                    "startRhyme": "",
+                                    "mainRhyme": "iê",
+                                    "finishRhyme": "c"
+                                }
+                            },
+                            "tone": "rising"
+                        }
+                    },
+                    {
+                        "content": {
+                            "text": "thuyền",
+                            "audioUrl": ""
+                        },
+                        "structure": {
+                            "consonant": "th",
+                            "rhyme": {
+                                "content": {
+                                    "text": "uyên",
+                                    "audioUrl": ""
+                                },
+                                "structure": {
+                                    "startRhyme": "u",
+                                    "mainRhyme": "yê",
+                                    "finishRhyme": "n"
+                                }
+                            },
+                            "tone": "falling"
+                        }
+                    },
+                    {
+                        "content": {
+                            "text": "nặng",
+                            "audioUrl": ""
+                        },
+                        "structure": {
+                            "consonant": "n",
+                            "rhyme": {
+                                "content": {
+                                    "text": "ăng",
+                                    "audioUrl": ""
+                                },
+                                "structure": {
+                                    "startRhyme": "n",
+                                    "mainRhyme": "ă",
+                                    "finishRhyme": "ng"
+                                }
+                            },
+                            "tone": "drop"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

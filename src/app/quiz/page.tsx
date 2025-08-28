@@ -1,3 +1,5 @@
+"use client";
+
 const QuizContainer: React.FC = () => {
     
     return (

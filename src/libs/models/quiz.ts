@@ -1,5 +1,17 @@
 import { QuizType } from "../enum/quiz";
 
+
+export class Question {
+    constructor(
+        private readonly questionBackgroundUrl?: string,
+        private readonly questionBackgroundOpacity?: string,
+        private readonly questionText?: string,
+        private readonly questionImageUrl?: string,
+        private readonly questionAudioUrl?: string,
+        private readonly questionVideoUrl?: string
+    ){}
+}
+
 class QuizPartContent {
     constructor(
         private readonly text?: string,
@@ -33,20 +45,15 @@ class QuizPart {
 }
 
 
-class Quiz extends LearningPart {
+export class Quiz extends LearningPart {
     constructor(
         protected readonly id: string,
         private readonly type: QuizType,
-        private readonly voiceSpeaker: string,
-        private readonly voiceSpeed: number,
+        // private readonly voiceSpeaker: string,
+        // private readonly voiceSpeed: number,
         private readonly score: number,
         private readonly quizParts: QuizPart[],
-        private readonly questionBackgroundUrl?: string,
-        private readonly questionBackgroundOpacity?: string,
-        private readonly questionText?: string,
-        private readonly questionImageUrl?: string,
-        private readonly questionAudioUrl?: string,
-        private readonly questionVideoUrl?: string
+        private readonly question: Question
     ){
         super(id);
     }
